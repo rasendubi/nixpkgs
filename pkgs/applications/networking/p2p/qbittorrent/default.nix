@@ -17,10 +17,16 @@ stdenv.mkDerivation rec {
     sha256 = "0lyv230vqwb77isjqm6fwwgv8hdap88zir9yrccj0qxj7zf8p3cw";
   };
 
-  nativeBuildInputs = [ pkgconfig which ];
+  nativeBuildInputs = [ pkgconfig which qt5.qmakeHook ];
 
   buildInputs = [ boost libtorrentRasterbar qt5.qtbase qt5.qttools ]
     ++ optional guiSupport dbus_libs;
+
+  preConfigure = ''
+    export QT_QMAKE="$qtOut/bin"
+  '';
+
+  dontUseQmakeConfigure = true;
 
   configureFlags = [
     "--with-boost-libdir=${boost.lib}/lib"
