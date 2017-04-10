@@ -3,7 +3,7 @@
 # enabled in the initrd.  Its primary use is in the NixOS installation
 # CDs.
 
-{ ... }:
+{ config, ... }:
 
 {
 
@@ -50,6 +50,10 @@
 
   # Include lots of firmware.
   hardware.enableRedistributableFirmware = true;
+
+  boot.extraModulePackages = [ config.boot.kernelPackages.broadcom_sta ];
+  boot.kernelModules = [ "wl" ];
+  nixpkgs.config.allowUnfree = true;
 
   imports =
     [ ../hardware/network/zydas-zd1211.nix ];
