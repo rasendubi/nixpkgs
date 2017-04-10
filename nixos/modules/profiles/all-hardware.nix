@@ -52,6 +52,10 @@
   # Include lots of firmware.
   hardware.enableAllFirmware = true;
 
+  boot.extraModulePackages = [ config.boot.kernelPackages.broadcom_sta ];
+  boot.kernelModules = [ "wl" ];
+  nixpkgs.config.allowUnfree = true;
+
   imports =
     [ ../hardware/network/zydas-zd1211.nix ];
 
