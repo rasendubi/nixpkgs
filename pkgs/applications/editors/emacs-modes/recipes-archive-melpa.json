@@ -86826,11 +86826,11 @@
   "repo": "raxod502/selectrum",
   "unstable": {
    "version": [
-    20200425,
-    1449
+    20200426,
+    1351
    ],
-   "commit": "dc1c8e8704f5eb73c540f2b4ca3eed213d2c3246",
-   "sha256": "0acifs68m6y5zfwadvvvlg7s4zhgazmrg6al7piy1nycq7dmng6b"
+   "commit": "e13bc3de25014176014d5ca76e84eec24b2fdd6c",
+   "sha256": "1rcxkrzqh4di5dhbd76qg3cdgfhrba0ga9sisalc8xx5acr31yzw"
   },
   "stable": {
    "version": [
@@ -96198,7 +96198,7 @@
   "unstable": {
    "version": [
     20200426,
-    1031
+    1351
    ],
    "deps": [
     "ace-window",
@@ -96210,8 +96210,8 @@
     "pfuture",
     "s"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -96247,8 +96247,8 @@
     "evil",
     "treemacs"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -96278,8 +96278,8 @@
     "cl-lib",
     "treemacs"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -96310,8 +96310,8 @@
     "pfuture",
     "treemacs"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -96343,8 +96343,8 @@
     "persp-mode",
     "treemacs"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -96375,8 +96375,8 @@
     "projectile",
     "treemacs"
    ],
-   "commit": "93b4357f7d9ff559c195be1fc4a7ec3554053d48",
-   "sha256": "1rh0bbm2mqy4zwkxrcsc88qpg2j6cbjsqcf8l682ibmmnslrfqh9"
+   "commit": "400aae84fa360a2050e22a5e672b877abb543b8e",
+   "sha256": "15p9nz0hibwpddms97zf95bsf8rpdnlia29sa0lqwgmj9pzr5wms"
   },
   "stable": {
    "version": [
@@ -103544,7 +103544,7 @@
     "pkg-info"
    ],
    "commit": "9adc5cf07a9117d25eaab41867ddde914c6d2f5a",
-   "sha256": "0g2vfscikz8qa0danvcickcjnz99yjm9jgk3sci094gmgwka3j2y"
+   "sha256": "1vl7nyfdpvh4ilxw1bckfkv59d6mxbb7m3z2fvrxs1gss06ks9va"
   }
  },
  {
